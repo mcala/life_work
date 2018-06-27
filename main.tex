@@ -29,14 +29,14 @@
 
 % personal data
 \name{Andrew}{McAllister}
-\title{Curriculum Vitae}
+\title{R\'esum\'e}
 \address{3559 Burbank Drive}{Ann Arbor, MI 48105}{}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
 \phone[mobile]{732-275-5051}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
 \email{mcala@umich.edu}                               % optional, remove / comment the line if not wanted
 \homepage{www.mcallister.science}                         % optional, remove / comment the line if not wanted
 \social[twitter]{McAllisterSci}                             % optional, remove / comment the line if not wanted
 \social[linkedin]{McAllisterSci}                        % optional, remove / comment the line if not wanted
-\social[github]{mcala}                              % optional, remove / comment the line if not wanted
+%\social[github]{mcala}                              % optional, remove / comment the line if not wanted
 %\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
 %\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
 %\quote{Some quote}                                 % optional, remove / comment the line if not wanted
@@ -59,21 +59,27 @@
 \hypersetup{urlcolor=links}
 %\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
 %-----       resume       ---------------------------------------------------------
+\vspace{-10cm}
 \makecvtitle
+\vspace{-1.3cm}
 
+\input{./parts/summary.tex}
 \input{./parts/education.tex}
 \input{./parts/work.tex}
 \input{./parts/awards.tex}
-\input{./parts/engagement.tex}
-\input{./parts/writing.tex}
-\input{./parts/teaching.tex}
-\input{./parts/classes.tex}
-\input{./parts/memberships.tex}
-\input{./parts/publications.tex}
-\input{./parts/presentations.tex}
-\input{./parts/funding.tex}
+%\input{./parts/skills.tex}
+\input{./parts/leadership.tex}
+\input{./parts/training.tex}
+\input{./parts/combined.tex}
+%\input{./parts/publications.tex}
+%\input{./parts/writing.tex}
+%\input{./parts/presentations.tex}
+%\input{./parts/engagement.tex}
+%\input{./parts/teaching.tex}
+%\input{./parts/classes.tex}
+%\input{./parts/memberships.tex}
+%\input{./parts/funding.tex}
 %\input{./parts/mentoring.tex}
-\input{./parts/skills.tex}
 
 % Publications from a BibTeX file without multibib
 %  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
@@ -92,10 +98,10 @@
 %\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
 
 \clearpage
-%%-----       letter       ---------------------------------------------------------
+%%%-----       letter       ---------------------------------------------------------
 %% recipient data
 %\recipient{Company Recruitment team}{Company, Inc.\\123 somestreet\\some city}
-%\date{January 01, 1984}
+%\date{June 22, 2018}
 %\opening{Dear Sir or Madam,}
 %\closing{Yours faithfully,}
 %\enclosure[Attached]{curriculum vit\ae{}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
@@ -109,7 +115,6 @@
 %
 %Albert Einstein discovered that $e=mc^2$ in 1905.
 %
-%\[ e=\lim_{n \to \infty} \left(1+\frac{1}{n}\right)^n \]
 %
 %\makeletterclosing
 
