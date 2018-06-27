@@ -1,6 +1,5 @@
 .DS_Store
 *.fls
-*.pdf
 *.aux
 *.dvi
 *.log
