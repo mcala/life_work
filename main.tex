@@ -50,30 +50,33 @@
 
 \begin{document}
 \definecolor{links}{HTML}{0000FF}
-\hypersetup{urlcolor=links}
+\hypersetup{
+  urlcolor=links,
+  linkcolor=.,
+}
 
 % AEM: Brings title up to allow more room for content.
 \vspace{-10cm}
 \makecvtitle
 \vspace{-1.3cm}
 
-%\input{./parts/summary.tex}
-%\input{./parts/education.tex}
-%\input{./parts/work.tex}
-%\input{./parts/awards.tex}
-%\input{./parts/skills.tex}
-%\input{./parts/leadership.tex}
-%\input{./parts/training.tex}
-%\input{./parts/combined.tex}
-%\input{./parts/publications.tex}
-%\input{./parts/writing.tex}
-%\input{./parts/presentations.tex}
-%\input{./parts/engagement.tex}
-%\input{./parts/teaching.tex}
-%\input{./parts/classes.tex}
-%\input{./parts/memberships.tex}
-%\input{./parts/funding.tex}
-%\input{./parts/mentoring.tex}
+\input{./parts/summary.tex}
+\input{./parts/education.tex}
+\input{./parts/work.tex}
+\input{./parts/awards.tex}
+\input{./parts/skills.tex}
+\input{./parts/leadership.tex}
+\input{./parts/training.tex}
+\input{./parts/combined.tex}
+\input{./parts/publications.tex}
+\input{./parts/writing.tex}
+\input{./parts/presentations.tex}
+\input{./parts/engagement.tex}
+\input{./parts/teaching.tex}
+\input{./parts/classes.tex}
+\input{./parts/memberships.tex}
+\input{./parts/funding.tex}
+\input{./parts/mentoring.tex}
 
 % Publications from a BibTeX file without multibib
 %  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
@@ -92,6 +95,7 @@
 %\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
 
 \clearpage
+\thispagestyle{empty}
 
 %-----       letter       ---------------------------------------------------------
 
