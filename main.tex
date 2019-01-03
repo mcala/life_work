@@ -6,6 +6,9 @@
 
 \usepackage{fontawesome}
 \usepackage{multirow, multicol}
+% For black squares
+\usepackage{amssymb}
+\providecommand{\separator}{\color{color2} \tiny $ \; \blacksquare \, $ \normalsize \color{color0}}
 
 % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
 %\renewcommand{\familydefault}{\sfdefault}
@@ -63,17 +66,20 @@
 \input{./parts/education.tex}
 \input{./parts/work.tex}
 \input{./parts/awards.tex}
-\input{./parts/teaching.tex}
-\input{./parts/writing.tex}
-\input{./parts/training.tex}
 \input{./parts/engagement.tex}
 \input{./parts/leadership.tex}
-\input{./parts/publications.tex}
-\input{./parts/presentations.tex}
+\input{./parts/writing.tex}
 \input{./parts/funding.tex}
 \input{./parts/memberships.tex}
-\input{./parts/service.tex}
-\input{./parts/skills.tex}
+%\input{./parts/service.tex}
+%\input{./parts/training.tex}
+%\input{./parts/teaching.tex}
+
+%\input{./parts/skills.tex}
+
+\pagebreak
+\input{./parts/publications.tex}
+\input{./parts/presentations.tex}
 %\input{./parts/combined.tex}
 %\input{./parts/classes.tex}
 %\input{./parts/mentoring.tex}
